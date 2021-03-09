@@ -5,7 +5,6 @@ public class SixQuiPrend {
     private static final int NB_CARD_MAX = 104;
 
     public static int findNumberOfBullHeads(int value) {
-        //défi : faire en une ligne
         int bullHeads = 0 ;
         if (value % 5 == 0)
             bullHeads += 2 ;
@@ -16,7 +15,9 @@ public class SixQuiPrend {
         if (bullHeads == 0)
             bullHeads = 1 ;
 
-        return bullHeads;
+        int oneline = value % 10 == 0 ? 3 : ((value % 5 == 0 ? 2 : 0) + (value % 10 == (value)/10 % 10 && value != 100 ? 5 : 0)) == 0 ? 1 : ((value % 5 == 0 ? 2 : 0) + (value % 10 == (value)/10 % 10 && value != 100 ? 5 : 0)) ;
+
+        return oneline;
     }
 
     public static void gameLoop() {

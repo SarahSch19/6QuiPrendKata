@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24b68908-515a-46e8-90b8-7d5ae6836bd8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/6QuiPrendKata.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/6QuiPrendKata.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/SixQuiPrend.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SixQuiPrend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/SixQuiPrendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/SixQuiPrendTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -134,15 +141,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -156,9 +161,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SixQuiPrendTest.notMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="6QuiPrendKata" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SixQuiPrendTest" />
+      <option name="METHOD_NAME" value="notMultiple" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SixQuiPrendTest" />
+        <item itemvalue="JUnit.SixQuiPrendTest.notMultiple" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +191,8 @@
       <updated>1586425228398</updated>
       <workItem from="1586425230032" duration="276000" />
       <workItem from="1614966290159" duration="848000" />
-      <workItem from="1614967222609" duration="1309000" />
+      <workItem from="1614967222609" duration="5033000" />
+      <workItem from="1615308206611" duration="1214000" />
     </task>
     <servers />
   </component>

@@ -32,5 +32,6 @@ public class SixQuiPrendTest {
     @Test
     public void value55() {
         assertEquals(7, SixQuiPrend.findNumberOfBullHeads(55));
+        assertEquals(3, SixQuiPrend.findNumberOfBullHeads(100));
     }
 }
